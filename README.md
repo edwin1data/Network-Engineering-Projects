@@ -1,25 +1,51 @@
 # Network Engineering Projects
 
-Welcome to my Network Engineering Projects repository!
+Welcome to my networking portfolio! This repository serves as a collection and index of my hands-on projects, labs, and technical learning in network engineering.
 
-This repository documents my hands-on journey into network engineering, focusing on practical networking concepts, enterprise network configurations, and troubleshooting techniques.
+I am a Computer Science and Engineering graduate developing practical skills in networking, infrastructure troubleshooting, and network operations. My focus is on building and documenting lab environments that demonstrate networking concepts through configuration, verification, and troubleshooting.
 
-As a Computer Science Engineering graduate developing my skills in network engineering, I use these projects to strengthen my understanding of networking fundamentals and gain practical experience with technologies commonly used in enterprise networks.
+## Technical Skills
 
-## Technologies & Concepts
+**Networking:** VLANs, IPv4 addressing, subnetting, inter-VLAN routing, 802.1Q trunking, DHCP, and basic network troubleshooting.
 
-* **Routing & Switching:** VLANs, trunking, inter-VLAN routing, and routing protocols.
-* **IP Addressing:** IPv4 addressing, subnetting, and default gateways.
-* **Network Services:** DHCP configuration and IP address assignment.
-* **Network Troubleshooting:** Connectivity testing, ping, and CLI-based diagnostics.
-* **Cisco Networking:** Router and switch configuration using Cisco IOS commands.
-* **Network Documentation:** Topology diagrams, configuration files, command outputs, and lab results.
+**Tools:** Cisco Packet Tracer, Cisco IOS CLI.
 
-## Project Documentation
+**Currently Developing:** Linux networking, network monitoring and observability, and network troubleshooting.
 
-Each project aims to include network topology diagrams, device configurations, implementation steps, verification commands, and troubleshooting notes to demonstrate practical understanding.
+## Projects
 
-My goal is to build the technical skills required for entry-level roles such as Network Support Engineer, NOC Engineer, and Junior Network Engineer.
+### 1. Enterprise VLAN Segmentation and Inter-VLAN Routing Lab
 
-This repository will continue to grow as I explore more advanced networking concepts and technologies.
+**Status:** Completed and connectivity tested
+**Tools:** Cisco Packet Tracer, Cisco IOS
 
+Designed and configured a simulated enterprise LAN using a Cisco 2901 router, two Cisco 3560 switches, and multiple end devices.
+
+**Key implementations:**
+
+* Segmented devices into VLAN 10 (HR) and VLAN 20 (Management).
+* Configured IEEE 802.1Q trunk links.
+* Implemented router-on-a-stick inter-VLAN routing.
+* Configured DHCP pools for both VLAN subnets.
+* Verified DHCP assignment, gateway connectivity, and communication between VLANs.
+
+**Repository:** [View the VLAN Segmentation Lab](https://github.com/edwin1data/Enterprise-Vlan-segmentation-lab)
+
+### Upcoming Projects
+
+The following projects are planned as I continue developing my practical networking skills.
+
+* **Network Monitoring and Observability:** Monitor network devices, availability, and performance using SNMP and a monitoring platform.
+* **Linux Networking and Troubleshooting:** Practise IP configuration, routing, DNS troubleshooting, connectivity tests, and network diagnostic tools.
+* **Network Troubleshooting Lab:** Build fault scenarios involving VLANs, trunk links, addressing, DHCP, and connectivity.
+
+## Learning Goals
+
+* Develop strong networking fundamentals and practical troubleshooting skills.
+* Improve my ability to monitor and diagnose network issues.
+* Gain hands-on experience with Linux system administration and networking.
+* Progress toward network automation after strengthening my networking fundamentals.
+
+---
+
+*This portfolio is a work in progress and will grow as I complete and document additional networking projects.*
